@@ -1,0 +1,16 @@
+;Codewright Project Space File (do not remove or modify this line)
+[State]
+StateWindowFrame=66,47,1009,634,0x23897fca
+_StateHistory=PROJECTS,'.\A35487-pulse-sync.pjt'
+_RestoreProject='.\A35487-pulse-sync.pjt'
+ProjSpaceFlags=0x00000000, 1
+ProjViewSetShow=Abcccccc
+
+[Project]
+ConfigSetUserWorkspace=''
+ConfigSetUserWorkspaceParser=''
+ConfigSetUserWorkspaceTimeStamp=0
+ConfigSetUserWorkspaceAutoSync=0
+
+[Project.".\A35487-pulse-sync.pjt"]
+

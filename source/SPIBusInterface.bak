@@ -1,0 +1,42 @@
+#include <p30f6014A.h>
+#include <dsp.h>
+#include "main.h"
+#include <libpic30.h>
+#include "Initialize.h"
+#include <spi.h>
+
+unsigned long addrtemp;
+unsigned long cmdtemp;
+
+void WriteToSPIBus(unsigned long data, unsigned int addr)
+{
+	unsigned int x;
+	unsigned long y;
+	unsigned long z;
+
+							//Send the data
+	addrtemp = addr << 12;
+	cmdtemp = ((0x03000000) + (data << 8));
+	y = cmdtemp;
+
+	SPI_SYNC_PIN = 0;
+	for (x = 0; x < 33; x++)
+	{
+		SPI_CLK_PIN = 1;
+		Nop()
+		Nop()
+		z = y & 0x80000000;
+		if (z == 0x80000000)
+			SPI_OUT_PIN = 1;
+		else
+			SPI_OUT_PIN = 0;
+		Nop()
+		Nop()
+		SPI_CLK_PIN = 0;
+		y = y << 1;
+	}
+	Nop()
+	Nop()
+	Nop()
+	SPI_SYNC_PIN = 1;
+}

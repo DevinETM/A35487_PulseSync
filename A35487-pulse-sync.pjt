@@ -1,0 +1,113 @@
+;Codewright Project File (do not remove or modify this line)
+[ProjInit]
+ConfigSetExtMode=2
+ProjSetConfigFlags=0x04110940
+
+[State]
+SysSetCwd='D:\work\prod1\Elekta_Gun_Driver\34760-91'
+SrchSetFlags=0x0418684b
+SrchSetAgainFlags=0x0418684b,0
+SrchSetAgainFlags=0x0200604b,1
+SrchSetAttrElements=
+SrchSetAgainAttrElements=
+FileSortMode=0x0
+_StateView='D:\work\prod1\A35487-pulse-sync\35487.Current\source\Initialize.c',44,58,864,406,-1,-1,565,6,533,1,1,'',0x00100018,0,80,0,0,'',0,1
+_StateView='D:\work\prod1\A35487-pulse-sync\35487.Current\source\tables.h',110,145,864,406,-1,-1,1,1,1,1,2,'',0x00100008,0,80,0,0,'',0,2
+_StateView='D:\work\prod1\A35487-pulse-sync\35487.Current\source\main.c',66,87,864,406,-1,-1,495,6,493,1,3,'',0x00100008,0,80,0,0,'',0,3
+_StateBuffer='D:\work\prod1\A35487-pulse-sync\35487.Current\source\Initialize.c',0x0400048e,565,6,25,'5 9','',0x101,'',1,72,1,0,'',''
+_StateBuffer='D:\work\prod1\A35487-pulse-sync\35487.Current\source\tables.h',0x0000048e,1,1,25,'5 9','',0x0,'',1,72,0,0,'',''
+_StateBuffer='D:\work\prod1\A35487-pulse-sync\35487.Current\source\main.c',0x0400048e,495,6,25,'5 9','',0x101,'',1,72,0,0,'',''
+_StateHistory=FILELIST,'D:\temp\temp4\35487.RevA5\source\main.c','D:\work\prod1\A35487-pulse-sync\35487.Current\source\Initialize.c','D:\work\prod1\A35487-pulse-sync\35487.Current\source\main.c','D:\work\prod1\A35487-pulse-sync\35487.Current\source\SPIBusInterface.c','D:\work\prod1\A35487-pulse-sync\35487.Current\source\traps.c','D:\work\prod1\A35487-pulse-sync\35487.Current\source\Initialize.h','D:\work\prod1\A35487-pulse-sync\35487.Current\source\main.h','D:\work\prod1\A35487-pulse-sync\35487.Current\source\SPIBusInterface.h','D:\work\prod1\A35487-pulse-sync\35487.Current\source\tables.h'
+_StateHistory=SEARCH,'version','OLL_PW_HOLD_LOWRESET','HOLD_LOWRESET','PIN_TRIG_INPUT','TRIG_INPUT','ReadTrigPulseWidth','FilterTrigger','trig_pulse_width','FaultsAndLEDs','InitPins'
+_StateHistory=REPLACE,'TRIS_PIN_LED_HVON','PIN_LED_HVON','PIN_LED_STANDBY','PIN_LED_XRAY_ON','NOP','PIN_LED_SUMFLT','energy_level','_SPI_'
+_StateHistory=EDITFILE,'D:\work\prod1\A35487-pulse-sync\35487\source\*.h','D:\work\prod1\A35487-pulse-sync\35487\source\main.c','C:\work\prod\A35487-pulse-sync\35487\source\*;.c','C:\work\prod\A35487-pulse-sync\35487\source\*.c','C:\work\prod\A35487-pulse-sync\35487\source\*.h','C:\work\prod\A35487-pulse-sync\35487\source\Initialize.c','D:\work\prod1\A35487-pulse-sync\35487.Current\source\*.c;*.h','D:\work\prod1\A35487-pulse-sync\35487.Current\source\*.c','D:\work\prod1\A35487-pulse-sync\35487.Current\source\*.h','D:\work\prod1\Elekta_Gun_Driver\34760-91\PIC-34760-91.psp'
+_StateHistory=DIRECTORY,'D:\work\prod1\A35487-pulse-sync\35487','D:\work\prod1\A35487-pulse-sync\35487\\'
+_StateHistory=DIFFFILE,'D:\work\prod1\A35487-pulse-sync\34487-91.hex','D:\work\prod1\A35487-pulse-sync\35487\source\main.c','D:\work\prod1\A35487-pulse-sync\35487\source\main_org.c','D:\work\prod1\A35487-pulse-sync\34487-91\source\main.c','C:\work\prod\A35487-pulse-sync\34487-91\source\main.c','D:\temp\temp4\35487.RevA5\source\main.c'
+_StateHistory=DIFFTARGET,'R:\1ROM\_PIC\34487\34487-91.hex','D:\work\prod1\A35487-pulse-sync\34487-91\source\main.c','D:\work\prod1\A35487-pulse-sync\35487\source\main.c','C:\work\prod\A35487-pulse-sync\35487\source\main.c','D:\work\prod1\A35487-pulse-sync\35487.Current\source\main.c'
+_StateHistory=DOCUMENTVISIT,'45          51          D:\work\prod1\A35487-pulse-sync\35487.Current\source\Initialize.c','32          80          D:\work\prod1\A35487-pulse-sync\35487.Current\source\main.c','45          51          D:\work\prod1\A35487-pulse-sync\35487.Current\source\Initialize.c','1           1           D:\work\prod1\A35487-pulse-sync\35487.Current\source\tables.h','50          1           D:\work\prod1\A35487-pulse-sync\35487.Current\source\Initialize.h','1           1           D:\work\prod1\A35487-pulse-sync\35487.Current\source\SPIBusInterface.h','23          99          D:\work\prod1\A35487-pulse-sync\35487.Current\source\main.h','50          1           D:\work\prod1\A35487-pulse-sync\35487.Current\source\Initialize.h','46          74          D:\work\prod1\A35487-pulse-sync\35487.Current\source\Initialize.c','495         6           D:\work\prod1\A35487-pulse-sync\35487.Current\source\main.c'
+_StateDocumentVisit=10
+
+[Editor]
+_RestoreSysFlags=0x23897fca, 0xfffffffc, 0
+VCSProject=''
+VCSProjectPath=''
+VCSProjectLocalPath=''
+ScrapSetCount=1
+ClipboardSetCount=1
+ClipboardEnableSepStr=1
+ClipboardSetSepStr='\r\n',0
+ClipboardEnableTermStr=1
+ClipboardSetTermStr='\r\n',0
+
+[Tools]
+ToolDeleteList 
+ToolAddCmd='$_custom_tool_$_1','API Database Editor',1342177312,'cwtedit.exe'
+ToolAddCmd='$_custom_tool_$_2','Paint',1342177312,'pbrush.exe'
+
+[Compiler]
+TagSetCmd='${HOME}${WTAGS} -oc -d -t${TAGFILE}.tag -p${TAGFILE}.ptg',0x8000060
+BrowseSetFile='tagfile.ptg'
+TagSetFile='C:\WORK\CW32\tagfile.tag'
+CompilerAddCmdEx='Microsoft Assembler','',16,'',16,'',16,'',0,'',16,'',0,'',0,'',0,'','','','',''
+CompilerAddResponse='Microsoft Assembler',
+CompilerAddCmdEx='Default Compiler Settings','',16,'',16,'',16,'',0,'',16,'',0,'',0,'',0,'','','','',''
+CompilerAddResponse='Default Compiler Settings',
+CompilerAddCmdEx='Borland C++ (16-bit)','${FTEE} bcc -c -ml -w %b%e',112,'${FTEE} bcc -c -ml -w %b%e',112,'',144,'',0,'',144,'',0,'',0,'',0,'_BorlandCppErrorInfo','','','',''
+CompilerAddResponse='Borland C++ (16-bit)',
+CompilerAddCmdEx='$_cw_proj_hash_$','',1073741904,'',80,'${FTEE} nmake',176,'${FTEE} nmake',176,'${FTEE} nmake',176,'${FTEE} nmake',176,'',0,'',0,'_ErrorInfoDefault','','','proj.err','%x'
+CompilerAddResponse='$_cw_proj_hash_$',
+CompilerAddCmdEx='Microsoft C(NT-i386)','${FTEE} cl -DSTRICT -c -W3 -G3 -D_X86_=1 -DWIN32 %r%e',112,'${FTEE} cl -DSTRICT -c -W3 -G3 -D_X86_=1 -DWIN32 %r%e',112,'',144,'',0,'',144,'',0,'',0,'',0,'_MicrosoftErrorInfo','','','',''
+CompilerAddResponse='Microsoft C(NT-i386)',
+CompilerNewExt=.htm
+CompilerAssign='Borland C++ (16-bit)','.c'
+CompilerNewExt=.pas
+CompilerAssign='Microsoft C(NT-i386)','.h'
+CompilerNewExt=.cfg
+CompilerNewExt=.asp
+CompilerNewExt=.ini
+CompilerNewExt=.html
+CompilerNewExt=.cs
+CompilerAssign='Microsoft C(NT-i386)','.cpp'
+CompilerAssign='Default Compiler Settings','.*'
+CompilerAssign='Microsoft C(NT-i386)','.cxx'
+CompilerNewExt=.txt
+CompilerAssign='Microsoft Assembler','.asm'
+CompilerAssign='Microsoft C(NT-i386)','.hpp'
+CompilerNewExt=.jav
+CompilerNewExt=.java
+CompilerNewExt=.xml
+
+[VersionControl:RCS]
+VCSSetCmd=VCS_CHECKIN_ID,'ci -f -I %b%e <%Q',0x8000040
+VCSSetCmd=VCS_CHECKINLOCK_ID,'ci -f -I -l %b%e <%Q',0x8000040
+VCSSetCmd=VCS_CHECKOUT_ID,'co -f %b%e',0x8000040
+VCSSetCmd=VCS_CHECKOUTLOCK_ID,'co -f -l %b%e',0x8000040
+VCSSetCmd=VCS_CHECKLOCK_ID,'rcs -l %b%e',0x8000040
+VCSSetCmd=VCS_CHECKUNLOCK_ID,'rcs -u %b%e',0x8000040
+VCSSetCmd=VCS_CHECKLABEL_ID,'rcs -N"${VCSLABEL}": %b%e',0x8000040
+VCSSetCmd=VCS_CHECKLOG_ID,'rlog %b%e',0x8000040
+VCSSetCmd=VCS_CHECKPROP_ID,'rlog -t %b%e',0x8000040
+VCSSetCmd=VCS_CHECKDIFF_ID,'rcsdiff -r %b%e',0x8000040
+VCSSetCmd=VCS_CHECKMENU_ID,'mksrcs',0x8000000
+VCSSetCmd=VCS_ADD_ID,'ci -f -t -I %b%e <%Q',0x8000040
+VCSSetCmd=VCS_REMOVE_ID,'del /f %b%%e,v',0x8000040
+
+[Project]
+ConfigSetUserMakefile=''
+ConfigSetUserMakefileParser=''
+ConfigSetUserMakefileTimeStamp=0
+ConfigSetUserMakefileAutoSync=0
+ConfigSetLinkDBFilename='C:\CW32\CWRIGHT.LDB'
+ConfigSetMarkDBFilename='C:\CW32\cwright.mrk'
+ConfigSetSymbolDBFilename='D:\work\prod1\A35487-pulse-sync\34487-91\A35487-pulse-sync.sbl'
+EditSetPath=''
+
+[Files]
+.\source\Initialize.c
+.\source\Initialize.h
+.\source\main.c
+.\source\main.h
+.\source\SPIBusInterface.c
+.\source\SPIBusInterface.h
+.\source\traps.c
+
